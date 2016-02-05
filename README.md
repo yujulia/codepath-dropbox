@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 * [ ] Optional: Add a detail view for one of the files and implement favoriting the file. Configure a Button
 * [ ] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard. Dismissing the Keyboard
 * [ ] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
-* [ ]Create a custom free form view controller that is wide enough for 4 screens.
+* [ ] Create a custom free form view controller that is wide enough for 4 screens.
 * [ ] Add a UIScrollView with paging enabled.
 * [ ] Add 4 UIImageViews for the welcome screens.
 
