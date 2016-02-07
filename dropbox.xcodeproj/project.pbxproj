@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A7627D31C67369500A666CF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627D21C67369500A666CF /* TermsViewController.swift */; };
+		5A7627D51C673CBB00A666CF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627D41C673CBB00A666CF /* SettingsViewController.swift */; };
 		5AE59D611C647A0C009B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE59D601C647A0C009B52BA /* AppDelegate.swift */; };
 		5AE59D631C647A0C009B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE59D621C647A0C009B52BA /* ViewController.swift */; };
 		5AE59D661C647A0C009B52BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE59D641C647A0C009B52BA /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		5A7627D21C67369500A666CF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		5A7627D41C673CBB00A666CF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		5AE59D5D1C647A0C009B52BA /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE59D601C647A0C009B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE59D621C647A0C009B52BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				5AE59D601C647A0C009B52BA /* AppDelegate.swift */,
 				5AE59D621C647A0C009B52BA /* ViewController.swift */,
 				5AE59D641C647A0C009B52BA /* Main.storyboard */,
+				5A7627D41C673CBB00A666CF /* SettingsViewController.swift */,
 				5AE59D671C647A0C009B52BA /* Assets.xcassets */,
 				5AE59D691C647A0C009B52BA /* LaunchScreen.storyboard */,
 				5AE59D6C1C647A0C009B52BA /* Info.plist */,
@@ -142,6 +145,7 @@
 				5AE59D631C647A0C009B52BA /* ViewController.swift in Sources */,
 				5A7627D31C67369500A666CF /* TermsViewController.swift in Sources */,
 				5AE59D611C647A0C009B52BA /* AppDelegate.swift in Sources */,
+				5A7627D51C673CBB00A666CF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
