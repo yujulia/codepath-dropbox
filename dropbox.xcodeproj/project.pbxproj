@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A7627D31C67369500A666CF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627D21C67369500A666CF /* TermsViewController.swift */; };
 		5AE59D611C647A0C009B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE59D601C647A0C009B52BA /* AppDelegate.swift */; };
 		5AE59D631C647A0C009B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE59D621C647A0C009B52BA /* ViewController.swift */; };
 		5AE59D661C647A0C009B52BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE59D641C647A0C009B52BA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A7627D21C67369500A666CF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		5AE59D5D1C647A0C009B52BA /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE59D601C647A0C009B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE59D621C647A0C009B52BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		5AE59D541C647A0C009B52BA = {
 			isa = PBXGroup;
 			children = (
+				5A7627D21C67369500A666CF /* TermsViewController.swift */,
 				5AE59D5F1C647A0C009B52BA /* dropbox */,
 				5AE59D5E1C647A0C009B52BA /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE59D631C647A0C009B52BA /* ViewController.swift in Sources */,
+				5A7627D31C67369500A666CF /* TermsViewController.swift in Sources */,
 				5AE59D611C647A0C009B52BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				5AE59D711C647A0C009B52BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
