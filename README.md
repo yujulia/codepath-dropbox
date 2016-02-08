@@ -32,7 +32,7 @@ The following **optional** features are implemented:
 
 * [x] Optional: Add a detail view for one of the files and implement favoriting the file. Configure a Button
 
-* [x] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+* [x] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard. (I only did this for create, sorry)
 
 ## Extra
 
