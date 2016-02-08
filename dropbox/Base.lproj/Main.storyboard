@@ -81,7 +81,7 @@
                                 <rect key="frame" x="0.0" y="99" width="320" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="nqa-fa-7UU" kind="push" id="8DI-Fi-gVZ"/>
+                                    <segue destination="nqa-fa-7UU" kind="push" animates="NO" id="8DI-Fi-gVZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="T2m-vj-5Dq">
@@ -345,7 +345,7 @@
                                     <color key="titleColor" red="0.066666666666666666" green="0.32941176470588235" blue="0.66274509803921566" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TYZ-W1-er8" kind="push" id="Xgz-tM-4wa"/>
+                                    <segue destination="TYZ-W1-er8" kind="push" animates="NO" id="Xgz-tM-4wa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -704,10 +704,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_files" id="Jtm-p5-thU">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_files_add" id="Jtm-p5-thU">
                                 <rect key="frame" x="0.0" y="64" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Moc-XD-uQh">
+                                <rect key="frame" x="9" y="371" width="311" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="80c-hQ-w3t" kind="modal" animates="NO" id="7fk-wF-fxF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -716,6 +723,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1Z-7k-2sx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1794" y="4804"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="2dM-ec-thL">
+            <objects>
+                <viewController id="80c-hQ-w3t" customClass="DetailViewController" customModule="dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iEH-Io-jFC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="gorey" id="U5y-3m-aZg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SCh-Dj-vea">
+                                <rect key="frame" x="256" y="493" width="26" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="favorite_btn"/>
+                                <state key="selected" image="favorited_btn"/>
+                                <connections>
+                                    <action selector="click:" destination="80c-hQ-w3t" eventType="touchUpInside" id="gK0-gZ-iS3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B7F-LO-MGo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTj-7t-6jq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2173" y="4827"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4cg-qJ-jVE">
@@ -902,11 +939,14 @@
         <image name="empty_favorites" width="320" height="454"/>
         <image name="empty_files" width="320" height="454"/>
         <image name="empty_photos" width="320" height="454"/>
-        <image name="existing_files" width="320" height="454"/>
+        <image name="existing_files_add" width="320" height="454"/>
         <image name="existing_photos" width="320" height="725"/>
+        <image name="favorite_btn" width="26" height="25"/>
         <image name="favorited" width="320" height="417"/>
+        <image name="favorited_btn" width="26" height="25"/>
         <image name="favorites_tab" width="30" height="30"/>
         <image name="files_tab" width="30" height="30"/>
+        <image name="gorey" width="320" height="454"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="photos_tab" width="30" height="30"/>
         <image name="settings" width="320" height="772"/>
@@ -920,9 +960,9 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yHr-OH-3t9"/>
-        <segue reference="BZz-ku-YA8"/>
         <segue reference="VIU-r4-HgL"/>
+        <segue reference="BZz-ku-YA8"/>
+        <segue reference="yHr-OH-3t9"/>
         <segue reference="9jY-3v-o16"/>
     </inferredMetricsTieBreakers>
 </document>

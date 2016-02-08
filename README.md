@@ -1,10 +1,14 @@
 Submitted by: Julia Yu
 
+# Week 1 Project: Dropbox
+Prototypes Dropbox sign in
+
+![cap.gif]
 
 Time spent:
 3 hrs - Thursday
 4 hrs - Saturday
-
+7 hrs - Sunday
 
 ## User Stories
 
@@ -27,13 +31,14 @@ The following **optional** features are implemented:
 - Add a UIScrollView with paging enabled.
 - Add 3 UIImageViews for the welcome screens.
 
-* [ ] Optional: Add a detail view for one of the files and implement favoriting the file. Configure a Button
+* [x] Optional: Add a detail view for one of the files and implement favoriting the file. Configure a Button
 
 * [x] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 
 ## Extra
 
 * added the password color str thing
+* make create disabled until a password is typed
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
