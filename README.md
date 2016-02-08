@@ -29,10 +29,11 @@ The following **optional** features are implemented:
 
 * [ ] Optional: Add a detail view for one of the files and implement favoriting the file. Configure a Button
 
-* [ ] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+* [x] Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 
 ## Extra
 
+* added the password color str thing
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

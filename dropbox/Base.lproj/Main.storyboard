@@ -239,17 +239,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="create_account" id="8IL-Nh-ByY">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="create_account_blank" id="8IL-Nh-ByY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <gestureRecognizers/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DkY-Gd-DcM">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="561"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="oy8-it-cJw" kind="modal" animates="NO" id="QD3-e2-c2F"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nMo-3y-a1T">
                                 <rect key="frame" x="5" y="20" width="104" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -257,14 +251,105 @@
                                     <action selector="goBack:" destination="0F2-rB-tNz" eventType="touchUpInside" id="RhJ-qg-Yi3"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="John" textAlignment="natural" minimumFontSize="17" id="nvC-1u-BqV">
+                                <rect key="frame" x="112" y="85" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Doe" textAlignment="natural" minimumFontSize="17" id="jun-2k-4Lu">
+                                <rect key="frame" x="112" y="130" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="john@doe.com" textAlignment="natural" minimumFontSize="17" id="dcq-3z-QNL">
+                                <rect key="frame" x="112" y="174" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" id="Gem-S1-b3E">
+                                <rect key="frame" x="112" y="217" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="onPasswordType:" destination="0F2-rB-tNz" eventType="editingChanged" id="e6z-xy-wXM"/>
+                                </connections>
+                            </textField>
+                            <view contentMode="scaleToFill" id="6v2-hz-Eqc" userLabel="PasswordStrength">
+                                <rect key="frame" x="0.0" y="248" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="yzl-Gg-fLx" userLabel="end line">
+                                        <rect key="frame" x="0.0" y="48" width="320" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90588235294117647" green="0.90196078431372551" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="pje-uH-C6L" userLabel="bar 1">
+                                        <rect key="frame" x="17" y="8" width="60" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="71K-s1-HnQ" userLabel="bar 4">
+                                        <rect key="frame" x="239" y="8" width="60" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="ksl-VZ-bJF" userLabel="bar 2">
+                                        <rect key="frame" x="93" y="8" width="60" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="ttj-e9-rej" userLabel="bar 3">
+                                        <rect key="frame" x="165" y="8" width="60" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.90196078430000004" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eSe-0J-wWj">
+                                        <rect key="frame" x="17" y="21" width="282" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="PAV-zr-eKQ" appends="YES" id="MXP-aS-TR2"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="New Account" id="NiE-cw-LvL">
                         <barButtonItem key="backBarButtonItem" title="Welcome" id="xxD-oV-KLM"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="PasswordField" destination="Gem-S1-b3E" id="WNO-pK-Ywm"/>
+                        <outlet property="PasswordStrPanel" destination="6v2-hz-Eqc" id="eFd-fg-jEp"/>
+                        <outlet property="bar1" destination="pje-uH-C6L" id="jBp-Ui-XR6"/>
+                        <outlet property="bar2" destination="ksl-VZ-bJF" id="bsH-Wh-YXB"/>
+                        <outlet property="bar3" destination="ttj-e9-rej" id="MbL-XH-lZM"/>
+                        <outlet property="bar4" destination="71K-s1-HnQ" id="MDi-V8-biD"/>
+                        <outlet property="emailTextField" destination="dcq-3z-QNL" id="SgL-qn-tiw"/>
+                        <outlet property="firstNameTextField" destination="nvC-1u-BqV" id="D58-5i-bII"/>
+                        <outlet property="lastNameTextField" destination="jun-2k-4Lu" id="dWD-9R-vHH"/>
+                        <outlet property="strText" destination="eSe-0J-wWj" id="apI-Hm-Xfi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PAr-F0-wGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="PAV-zr-eKQ">
+                    <connections>
+                        <action selector="didTap:" destination="0F2-rB-tNz" id="JeK-zx-LLa"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1130" y="1963"/>
         </scene>
@@ -896,7 +981,7 @@
         <image name="create3" width="320" height="568"/>
         <image name="create4" width="320" height="568"/>
         <image name="create5" width="320" height="568"/>
-        <image name="create_account" width="320" height="568"/>
+        <image name="create_account_blank" width="320" height="568"/>
         <image name="empty_favorites" width="320" height="454"/>
         <image name="empty_files" width="320" height="454"/>
         <image name="empty_photos" width="320" height="454"/>
