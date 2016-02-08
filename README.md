@@ -1,9 +1,8 @@
 Submitted by: Julia Yu
 
 # Week 1 Project: Dropbox
-Prototypes Dropbox sign in
 
-![cap.gif]
+![dropbox demo](cap.gif)
 
 Time spent:
 3 hrs - Thursday
