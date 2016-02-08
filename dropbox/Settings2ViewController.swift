@@ -1,5 +1,5 @@
 //
-//  SignInViewController.swift
+//  Settings2ViewController.swift
 //  dropbox
 //
 //  Created by Julia Yu on 2/7/16.
@@ -8,10 +8,14 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class Settings2ViewController: UIViewController {
 
+    @IBOutlet weak var scrollSettings2: UIScrollView!
+    @IBOutlet weak var settingsImage2: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollSettings2.contentSize = settingsImage2.image!.size
 
         // Do any additional setup after loading the view.
     }
@@ -21,9 +25,8 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func goBack(sender: UIButton) {
-        navigationController!.popViewControllerAnimated(true)
-    }
+
+
     /*
     // MARK: - Navigation
 

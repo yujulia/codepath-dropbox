@@ -1,5 +1,5 @@
 //
-//  SignInViewController.swift
+//  SignInStep1ViewController.swift
 //  dropbox
 //
 //  Created by Julia Yu on 2/7/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class SignInStep1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,9 +21,7 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func goBack(sender: UIButton) {
-        navigationController!.popViewControllerAnimated(true)
-    }
+
     /*
     // MARK: - Navigation
 

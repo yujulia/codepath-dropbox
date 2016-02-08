@@ -15,6 +15,7 @@
 		5A7627DD1C6740A800A666CF /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627DC1C6740A800A666CF /* CreateAccountRootViewController.swift */; };
 		5A7627DF1C6813A300A666CF /* CancelHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627DE1C6813A300A666CF /* CancelHelpViewController.swift */; };
 		5A7627E11C681EA800A666CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627E01C681EA800A666CF /* WelcomeViewController.swift */; };
+		5A7627E51C682B9D00A666CF /* Settings2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7627E41C682B9D00A666CF /* Settings2ViewController.swift */; };
 		5AE59D611C647A0C009B52BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE59D601C647A0C009B52BA /* AppDelegate.swift */; };
 		5AE59D631C647A0C009B52BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE59D621C647A0C009B52BA /* ViewController.swift */; };
 		5AE59D661C647A0C009B52BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE59D641C647A0C009B52BA /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		5A7627DC1C6740A800A666CF /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		5A7627DE1C6813A300A666CF /* CancelHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelHelpViewController.swift; sourceTree = "<group>"; };
 		5A7627E01C681EA800A666CF /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5A7627E41C682B9D00A666CF /* Settings2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings2ViewController.swift; sourceTree = "<group>"; };
 		5AE59D5D1C647A0C009B52BA /* dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE59D601C647A0C009B52BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE59D621C647A0C009B52BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				5AE59D601C647A0C009B52BA /* AppDelegate.swift */,
 				5AE59D621C647A0C009B52BA /* ViewController.swift */,
 				5AE59D641C647A0C009B52BA /* Main.storyboard */,
+				5A7627E41C682B9D00A666CF /* Settings2ViewController.swift */,
 				5A7627E01C681EA800A666CF /* WelcomeViewController.swift */,
 				5A7627DE1C6813A300A666CF /* CancelHelpViewController.swift */,
 				5A7627D61C67401A00A666CF /* CreateAccountViewController.swift */,
@@ -163,6 +166,7 @@
 				5A7627DB1C67406300A666CF /* SignInViewController.swift in Sources */,
 				5A7627E11C681EA800A666CF /* WelcomeViewController.swift in Sources */,
 				5A7627D71C67401A00A666CF /* CreateAccountViewController.swift in Sources */,
+				5A7627E51C682B9D00A666CF /* Settings2ViewController.swift in Sources */,
 				5AE59D631C647A0C009B52BA /* ViewController.swift in Sources */,
 				5A7627D91C67404900A666CF /* SignInRootViewController.swift in Sources */,
 				5A7627DD1C6740A800A666CF /* CreateAccountRootViewController.swift in Sources */,
