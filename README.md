@@ -2,7 +2,7 @@ Submitted by: Julia Yu
 
 # Week 1 Project: Dropbox
 
-![dropbox demo](cap.gif)
+![dropbox demo](dropbox-demo.gif)
 
 Time spent:
 3 hrs - Thursday
